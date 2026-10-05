@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#2f6fde"/>
+  <g transform="translate(256 256) scale(0.78) translate(-256 -256)">
+    <rect x="96" y="96" width="320" height="320" rx="28" fill="#fffdf8"/>
+    <g stroke="#2b2f36" stroke-width="10" stroke-linecap="round">
+      <path d="M202.7 112v288M309.3 112v288M112 202.7h288M112 309.3h288"/>
+    </g>
+    <g font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="72" text-anchor="middle" fill="#1f2328">
+      <text x="149" y="176">5</text>
+      <text x="256" y="283" fill="#2f6fde">3</text>
+      <text x="363" y="389">9</text>
+    </g>
+  </g>
+</svg>

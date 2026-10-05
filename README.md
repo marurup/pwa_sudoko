@@ -17,13 +17,14 @@ An installable, fully offline Sudoku game. No build step, no dependencies — ju
    **Android (Chrome):** menu ⋮ → *Install app* / *Add to Home screen*.
 3. Launch it from the home screen once more — it now works in airplane mode.
 
-## Hosting
+## Hosting (GitHub Pages)
 
-The included workflow (`.github/workflows/pages.yml`) publishes the site to GitHub Pages
-on every push to `main`. One-time setup: **Settings → Pages → Build and deployment →
-Source: GitHub Actions**. The app is then at `https://<user>.github.io/<repo>/`.
+The app is plain static files at the repo root, so Pages can serve the branch directly:
+**Settings → Pages → Build and deployment → Source: Deploy from a branch →** pick the
+default branch and `/ (root)` → Save. After a minute it is live at
+`https://<user>.github.io/<repo>/` and updates on every push.
 
-Any static host works (Netlify, Cloudflare Pages, …). A service worker needs HTTPS (or `localhost`).
+Any other static HTTPS host works too (a service worker needs HTTPS or `localhost`).
 
 ## Run locally
 

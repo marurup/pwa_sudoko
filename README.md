@@ -2,6 +2,9 @@
 
 An installable, fully offline Sudoku game. No build step, no dependencies — just static files.
 
+Play here: https://marurup.github.io/pwa_sudoko/
+
+
 - **4 sizes:** Mini 4×4, Small 6×6 (3×2 boxes), Standard 9×9, Large 12×12 (4×3 boxes)
 - **5 difficulty levels:** Beginner, Easy, Medium, Hard, Expert
 - Every puzzle is freshly generated on the device and has exactly one solution
